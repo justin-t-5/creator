@@ -35,9 +35,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
+https://www.dropbox.com/scl/fi/v6cxhd409o6d60mo0fu37/Screen-Recording-2025-08-25-000239.mp4?rlkey=zm15vhqf5v3tp7vxv77by8cuf&dl=0
 
 GIF created with ...  👉🏿 GIF tool here
-[ScreenToGif](https://www.screentogif.com/) for Windows
+ShareX for Windows
 
 
 ## Notes
