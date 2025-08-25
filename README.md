@@ -46,7 +46,7 @@ ezGIF
 
 ## Notes
 
-Describe any challenges encountered while building the app or any additional context you'd like to add.
+Alot of challenges came up because this project was a complete recap of WEB 102 and it was tedious recalling everything to implement into this project, at the same time though, it was a nice refresher of the topics. Problems also came up trying to get the screen to gif program working.
 
 ## License
 
