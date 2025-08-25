@@ -1,0 +1,14 @@
+.posts {
+  margin-right:0px;
+  margin-left:50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 1rem; /* space between cards */
+  padding: 0;
+  list-style: none; /* remove bullet points */
+  
+}
+.feedtop{
+    margin-left:50px;
+    margin-bottom:30px;
+}

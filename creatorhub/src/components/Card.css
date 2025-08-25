@@ -1,0 +1,87 @@
+.card{
+    background-color:#06103A;
+    display:flex;
+    flex-direction:column;
+      height: 580px;
+  width:400px;
+  border-radius:30px;
+
+}
+
+.card .image{
+    display:flex;
+    justify-content: center;
+}
+.card img {    /* same height */
+  height: 400px;
+  width:400px;
+   border-top-left-radius: 16px;   /* adjust the radius as needed */
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin:0px;
+  object-fit:cover;
+  
+  
+}
+
+.card .name{
+    text-decoration: none;
+    color:#FAFFFD;
+    font-weight:bolder;
+    padding:0px;
+    margin:0px 0px 0px 20px;
+
+    
+}
+.card .name h2{
+    margin:0px 0px 0px 0px;
+}
+.card a{
+    text-decoration: none;
+    color:#FAFFFD;
+    font-weight:bolder;
+
+}
+
+.card .card-buttons{
+    display:flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right:10px;
+}
+
+.card .card-buttons img{
+    height:25px;
+    width:25px;
+    border-radius:0px;
+    object-fit:fill;
+    margin-left:10px;
+    margin-right:10px;
+    
+}
+
+.card .card-buttons button{
+  background: none;       /* remove background */
+  border: none;           /* remove border */
+  text-decoration: none;
+  color:#FAFFFD;
+  font-weight:bolder;       /* link color */
+  padding: 0;             /* remove default button padding */
+  font: inherit;          /* inherit font styles */
+  cursor: pointer;        /* show pointer on hover */
+  text-decoration: none;
+}
+
+.card .info{
+    margin-top:15px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.card p{
+    margin-left:20px;
+    margin-right:10px;
+}
