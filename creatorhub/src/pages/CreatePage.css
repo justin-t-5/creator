@@ -1,0 +1,48 @@
+.create-container{
+    background-color:#06103A;
+   
+      margin:50px 350px 100px 350px;
+      border-radius:30px;
+    display:flex;
+    flex-direction:column;
+}
+
+input, select, textarea {
+  width: 100%;           /* makes them fill the container’s width */
+  max-width: 600px;      /* optional max width */
+  padding: 0.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box; /* includes padding in width */
+  margin-left:30px;
+  flex: 1;
+  border: 1px solid #555;
+  background: #4D60AD;
+  color:#FAFFFD;
+}
+
+.create-container p{
+        margin-left:30px;
+
+}
+
+.create-container h1{
+        padding:30px 30px 0px 30px;
+}
+
+.create-container button{
+    margin: 30px 30px 30px 30px;
+    padding:15px 30px 15px 30px;
+    background-color: #4D60AD;
+    border:0px;
+    border-radius: 15px;
+    font-weight:bold;
+    color:#06103A;
+}
+
+.create-container button:hover{
+     background-color: #8a98cf;
+}
+
+

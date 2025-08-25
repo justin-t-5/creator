@@ -16,6 +16,9 @@ function EditPage() {
     if (id) getPost();
   }, [id]);
 
+    const NAME_LIMIT = 25;
+  const DESC_LIMIT = 200;
+
   async function getPost() {
     const { data, error } = await supabase
       .from("creators")
@@ -65,22 +68,24 @@ function EditPage() {
   }
 
   return (
-    <div>
+    <div className="edit-container">
       <h1>Edit Post</h1>
       {errorMsg && <p style={{ color: "red" }}>{errorMsg}</p>}
 
       <form onSubmit={handleSubmit}>
-        <p>Creator's Name:</p>
+        <p>Creator's Name:({name.length}/{NAME_LIMIT})</p>
         <input
           value={name}
           onChange={(e) => setName(e.target.value)}
+          maxLength ={NAME_LIMIT}
           required
         />
 
-        <p>Creator Description:</p>
+        <p>Creator Description:({description.length}/{DESC_LIMIT})</p>
         <textarea
           value={description}
           onChange={(e) => setDescription(e.target.value)}
+          maxLength={DESC_LIMIT}
           required
           rows={5}
           style={{ resize: "vertical" }}
@@ -98,11 +103,12 @@ function EditPage() {
           value={image}
           onChange={(e) => setImage(e.target.value)}
         />
-
+        <div>
         <button type="submit">Upload</button>
         <button type="button" onClick={handleDelete}>
           Delete
         </button>
+        </div>
       </form>
     </div>
   );

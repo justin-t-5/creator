@@ -32,7 +32,7 @@ function CreatePage(){
     }
 
     return(
-        <div>
+        <div className="create-container">
             <h1>Upload Post</h1>
         <form onSubmit = {handleSubmit}>
         <p>Creator's Name: ({name.length}/{NAME_LIMIT})</p>
@@ -61,10 +61,11 @@ function CreatePage(){
         <input
         value ={image}
         onChange = {(e) => setImage(e.target.value)}/>
-
+        <div>
         <button type ="submit">
             Upload
         </button>
+        </div>
 
 
         </form>

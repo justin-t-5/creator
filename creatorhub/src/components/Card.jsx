@@ -27,11 +27,11 @@ function Card({ id, name, url, description, image }) {
     <div className="info">
     <Link className="name" to={`/creators/${id}`}><h2>{name}</h2></Link>
     <div className="card-buttons">
-        <a href={url} target="_blank" rel="noopener noreferrer"><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/youtube-app-white-icon.png"></img></a>
+    <a href={url} target="_blank" rel="noopener noreferrer"><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/youtube-app-white-icon.png"></img></a>
     <Link className="edit" to={`/creators/${id}/edit`}><img src="https://uxwing.com/wp-content/themes/uxwing/download/editing-user-action/edit-white-icon.png"/>
     </Link>
     <button type="button" onClick={handleDelete}>
-        <img src="https://www.pngkey.com/png/full/904-9042662_nl-fr-white-delete-icon-png.png"/>
+    <img src="https://www.pngkey.com/png/full/904-9042662_nl-fr-white-delete-icon-png.png"/>
     </button>
     </div>
     </div>
