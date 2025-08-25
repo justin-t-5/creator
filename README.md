@@ -35,10 +35,13 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-https://www.dropbox.com/scl/fi/v6cxhd409o6d60mo0fu37/Screen-Recording-2025-08-25-000239.mp4?rlkey=zm15vhqf5v3tp7vxv77by8cuf&dl=0
-
 GIF created with ...  👉🏿 GIF tool here
-ShareX for Windows
+ezGIF
+![ScreenRecording2025-08-25000239-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/5dc9519d-51a9-4e5f-beef-69e8229790be)
+![ScreenRecording2025-08-25002134-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/19626ed6-2c1a-42e3-b8bc-530c99180f21)
+![ScreenRecording2025-08-25002244-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/e34f7e68-2578-4d6f-915b-d528b8c7e870)
+![ScreenRecording2025-08-25002407-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/e208361e-4350-465c-9578-d51ec31cc861)
+![ScreenRecording2025-08-25002718-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/d3d9c0d4-ee94-43e0-a4f1-92d9b0695679)
 
 
 ## Notes
